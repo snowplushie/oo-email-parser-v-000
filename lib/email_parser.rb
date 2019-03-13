@@ -11,6 +11,6 @@ class EmailParser
   end
   
   def parse
-    email.split(/  | /)
+    email.split(/ | /)
   end
 end
